@@ -23,6 +23,7 @@ import com.sap.demolist.dao.CustomerDao;
 
 @Service
 public class CustomerService {
+	          List listtest = new ArrayList();
 	          List list = new ArrayList();
 	          List linkedlist =   new LinkedList();
 	          Set hashset =  new HashSet();

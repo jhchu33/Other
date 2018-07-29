@@ -22,11 +22,12 @@ public class CustomerController {
 	@Autowired
 	private  CustomerService customerService;
     private Integer tail;
-	
+	Map map = new HashMap();
     
     @RequestMapping("initlist/{head}") 
 	public String searchInit(@PathVariable("head") Integer head,Model model) {
 		       
+		        
 		        tail = head+1;
 		        List<Customer>  customerlist =(List<Customer>)customerService.Search(head,tail);
 		        model.addAttribute("list",customerlist);
