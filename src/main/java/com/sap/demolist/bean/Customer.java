@@ -8,7 +8,7 @@ public class Customer {
 	    private Integer age;
 	    private String address;
 	    
-	    
+	        //This is a test（）
 		public Integer getId() {
 			return id;
 		}
