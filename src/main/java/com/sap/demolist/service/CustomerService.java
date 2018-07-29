@@ -38,6 +38,7 @@ public class CustomerService {
 	        	               System.out.println("This is a 2");
 	        	               System.out.println("This is a 3");
 	        	               System.out.println("This is a 4");
+	        	               System.out.println("This is a 4");
 	        	               return  customerDao.selectById(head,tail);
 	           }
 
