@@ -34,6 +34,7 @@ public class CustomerService {
 	          
 	          
 	           public  List<Customer>  Search(Integer head,Integer tail) {
+	        	               System.out.println("This is a test");
 	        	               return  customerDao.selectById(head,tail);
 	           }
 
