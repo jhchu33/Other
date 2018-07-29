@@ -35,12 +35,12 @@ public class CustomerService {
 	          
 	          
 	           public  List<Customer>  Search(Integer head,Integer tail) {
-	        	               System.out.println("This is a 1");
-	        	               System.out.println("This is a 2");
-	        	               System.out.println("This is a 3");
-	        	               System.out.println("This is a 4");
-	        	               System.out.println("This is a 5");
-			               System.out.println("This is a 6");
+	        	               System.out.println("This is the 1");
+	        	               System.out.println("This is the 2");
+	        	               System.out.println("This is the 3");
+	        	               System.out.println("This is the 4");
+	        	               System.out.println("This is the 5");
+			               System.out.println("This is the 6");
 	        	               return  customerDao.selectById(head,tail);
 	           }
 
